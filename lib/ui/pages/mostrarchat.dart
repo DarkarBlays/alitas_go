@@ -42,7 +42,6 @@ class mostrachat extends StatelessWidget {
                     ],
                   ),
                 ),
-                const Icon(Icons.settings,color: Colors.black54,),
               ],
             ),
           ),
@@ -50,13 +49,7 @@ class mostrachat extends StatelessWidget {
       ),
       body: Stack(
         children: <Widget>[
-          ListView.builder(
-            
-            shrinkWrap: true,
-            padding: const EdgeInsets.only(top: 10, bottom: 10),
-            physics: const NeverScrollableScrollPhysics(),
-            itemBuilder: (context, index) {
-              return Container(
+              Container(
                 padding:
                     const EdgeInsets.only(left: 14, right: 14, top: 10, bottom: 10),
                 child: Align(
@@ -64,7 +57,7 @@ class mostrachat extends StatelessWidget {
                   child: Container(
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20),
-                      color: ( Colors.grey.shade200),
+                      color: ( Color.fromARGB(255, 196, 224, 247)),
                     ),
                     padding: const EdgeInsets.all(16),
                     child: Text(
@@ -73,9 +66,7 @@ class mostrachat extends StatelessWidget {
                     ),
                   ),
                 ),
-              );
-            },
-          ),
+              ),
           Align(
             alignment: Alignment.bottomLeft,
             child: Container(
@@ -92,7 +83,7 @@ class mostrachat extends StatelessWidget {
                       height: 30,
                       width: 30,
                       decoration: BoxDecoration(
-                        color: Colors.lightBlue,
+                        color:  Color.fromARGB(255, 192, 5, 5),
                         borderRadius: BorderRadius.circular(30),
                       ),
                       child: const Icon(Icons.add, color: Colors.white, size: 20, ),
@@ -112,7 +103,7 @@ class mostrachat extends StatelessWidget {
                   FloatingActionButton(
                     onPressed: (){},
                     child: const Icon(Icons.send,color: Colors.white,size: 18,),
-                    backgroundColor: Colors.blue,
+                    backgroundColor:  Color.fromARGB(255, 192, 5, 5),
                     elevation: 0,
                   ),
                 ],
