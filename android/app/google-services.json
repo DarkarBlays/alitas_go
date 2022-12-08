@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "909553998096",
+    "project_id": "alitas-f9c37",
+    "storage_bucket": "alitas-f9c37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909553998096:android:ec32d7a7113d28b218ed95",
+        "android_client_info": {
+          "package_name": "com.example.alitas_go"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909553998096-n1ia1n2rus22ducr3retdf98u6d0r44e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANXM4reIaYO22DHOVpadd0-D7LsmbbHhs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909553998096-n1ia1n2rus22ducr3retdf98u6d0r44e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
